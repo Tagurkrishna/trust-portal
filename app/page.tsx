@@ -47,8 +47,8 @@ export default async function Home() {
             {new Date(data.last_updated).toLocaleString()}
           </p>
 
-          <p className="text-xs text-gray-400 mt-1">
-            Execution ID: {data.live_marker}
+          <p className="text-xs text-gray-500 mt-1">
+            Evaluated live using automated compliance workflows
           </p>
         </div>
       </section>
